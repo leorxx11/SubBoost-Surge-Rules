@@ -1,0 +1,67 @@
+name: Update Surge rules
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 2 * * *'
+  push:
+    branches: [main]
+    paths:
+      - catalog.json
+      - scripts/**
+      - tests/**
+      - .github/workflows/update.yml
+  pull_request:
+    paths:
+      - catalog.json
+      - scripts/**
+      - tests/**
+      - .github/workflows/update.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: surge-rules-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Test conversion
+        run: python3 -m unittest discover -s tests -v
+      - name: Generate from one upstream revision
+        run: python3 scripts/build.py
+      - name: Verify generated rules, routing and HTTP delivery
+        run: |
+          python3 - <<'PY'
+          from functools import partial
+          from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
+          import json
+          from pathlib import Path
+          from threading import Thread
+          from scripts.verify import verify
+
+          with ThreadingHTTPServer(('127.0.0.1', 0), partial(SimpleHTTPRequestHandler, directory='.')) as server:
+              Thread(target=server.serve_forever, daemon=True).start()
+              try:
+                  print(json.dumps(verify(Path.cwd(), 'http://127.0.0.1:{}/rules'.format(server.server_port))))
+              finally:
+                  server.shutdown()
+          PY
+      - name: Publish generated files
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add rules examples
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m 'chore: update Surge rules'
+          git push origin HEAD:main

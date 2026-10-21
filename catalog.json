@@ -1,0 +1,344 @@
+{
+  "upstream": {
+    "repository": "MetaCubeX/meta-rules-dat",
+    "branch": "meta",
+    "directory": "geo"
+  },
+  "publish_url": "https://raw.githubusercontent.com/leorxx11/SubBoost-Surge-Rules/main/rules",
+  "final_policy": "Proxy",
+  "groups": [
+    {
+      "id": "ad",
+      "name": "广告拦截",
+      "policy": "REJECT",
+      "sources": [
+        "geosite/category-ads-all.list"
+      ]
+    },
+    {
+      "id": "private",
+      "name": "私有网络",
+      "policy": "DIRECT",
+      "sources": [
+        "geosite/private.list",
+        "geoip/private.list"
+      ]
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini",
+      "policy": "Gemini",
+      "sources": [
+        "geosite/google-gemini.list"
+      ]
+    },
+    {
+      "id": "ai",
+      "name": "AI 服务",
+      "policy": "AI 服务",
+      "sources": [
+        "geosite/openai.list",
+        "geosite/anthropic.list",
+        "geosite/category-ai-chat-!cn.list"
+      ]
+    },
+    {
+      "id": "cn",
+      "name": "国内服务",
+      "policy": "DIRECT",
+      "sources": [
+        "geosite/geolocation-cn.list",
+        "geoip/cn.list"
+      ]
+    },
+    {
+      "id": "youtube",
+      "name": "YouTube",
+      "policy": "YouTube",
+      "sources": [
+        "geosite/youtube.list"
+      ]
+    },
+    {
+      "id": "google-scholar",
+      "name": "Google 学术",
+      "policy": "Google 学术",
+      "sources": [
+        "geosite/google-scholar.list"
+      ]
+    },
+    {
+      "id": "education",
+      "name": "教育学术",
+      "policy": "教育学术",
+      "sources": [
+        "geosite/category-scholar-!cn.list",
+        "geosite/coursera.list",
+        "geosite/udemy.list",
+        "geosite/edx.list",
+        "geosite/khanacademy.list",
+        "geosite/wikimedia.list"
+      ]
+    },
+    {
+      "id": "dev-tools",
+      "name": "开发工具",
+      "policy": "开发工具",
+      "sources": [
+        "geosite/docker.list",
+        "geosite/npmjs.list",
+        "geosite/jetbrains.list",
+        "geosite/stackexchange.list"
+      ]
+    },
+    {
+      "id": "cloud",
+      "name": "云服务",
+      "policy": "云服务",
+      "sources": [
+        "geosite/aws.list",
+        "geosite/azure.list",
+        "geosite/cloudflare.list",
+        "geosite/digitalocean.list",
+        "geosite/vercel.list",
+        "geosite/netlify.list",
+        "geoip/cloudflare.list"
+      ]
+    },
+    {
+      "id": "google",
+      "name": "Google",
+      "policy": "Google",
+      "sources": [
+        "geosite/google.list",
+        "geoip/google.list"
+      ]
+    },
+    {
+      "id": "telegram",
+      "name": "Telegram",
+      "policy": "Telegram",
+      "sources": [
+        "geosite/telegram.list",
+        "geoip/telegram.list"
+      ]
+    },
+    {
+      "id": "github",
+      "name": "代码托管",
+      "policy": "代码托管",
+      "sources": [
+        "geosite/github.list",
+        "geosite/gitlab.list",
+        "geosite/atlassian.list"
+      ]
+    },
+    {
+      "id": "microsoft",
+      "name": "Microsoft",
+      "policy": "Microsoft",
+      "sources": [
+        "geosite/microsoft.list",
+        "geosite/onedrive.list"
+      ]
+    },
+    {
+      "id": "apple",
+      "name": "Apple",
+      "policy": "Apple",
+      "sources": [
+        "geosite/apple.list",
+        "geosite/icloud.list"
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "X",
+      "policy": "X",
+      "sources": [
+        "geosite/twitter.list",
+        "geoip/twitter.list"
+      ]
+    },
+    {
+      "id": "meta",
+      "name": "Meta",
+      "policy": "Meta",
+      "sources": [
+        "geosite/facebook.list",
+        "geosite/instagram.list",
+        "geosite/whatsapp.list",
+        "geoip/facebook.list"
+      ]
+    },
+    {
+      "id": "discord",
+      "name": "Discord",
+      "policy": "Discord",
+      "sources": [
+        "geosite/discord.list"
+      ]
+    },
+    {
+      "id": "social-other",
+      "name": "其他社交",
+      "policy": "其他社交",
+      "sources": [
+        "geosite/tiktok.list",
+        "geosite/line.list",
+        "geosite/reddit.list",
+        "geosite/linkedin.list",
+        "geosite/snap.list",
+        "geosite/pinterest.list",
+        "geosite/tumblr.list"
+      ]
+    },
+    {
+      "id": "netflix",
+      "name": "Netflix",
+      "policy": "Netflix",
+      "sources": [
+        "geosite/netflix.list",
+        "geoip/netflix.list"
+      ]
+    },
+    {
+      "id": "disney",
+      "name": "Disney+",
+      "policy": "Disney+",
+      "sources": [
+        "geosite/disney.list"
+      ]
+    },
+    {
+      "id": "streaming-west",
+      "name": "欧美流媒体",
+      "policy": "欧美流媒体",
+      "sources": [
+        "geosite/hbo.list",
+        "geosite/hulu.list",
+        "geosite/primevideo.list",
+        "geosite/apple-tvplus.list",
+        "geosite/spotify.list",
+        "geosite/twitch.list",
+        "geosite/dazn.list"
+      ]
+    },
+    {
+      "id": "streaming-asia",
+      "name": "亚洲流媒体",
+      "policy": "亚洲流媒体",
+      "sources": [
+        "geosite/bahamut.list",
+        "geosite/biliintl.list",
+        "geosite/niconico.list",
+        "geosite/abema.list",
+        "geosite/viu.list",
+        "geosite/kktv.list"
+      ]
+    },
+    {
+      "id": "steam",
+      "name": "Steam",
+      "policy": "Steam",
+      "sources": [
+        "geosite/steam.list"
+      ]
+    },
+    {
+      "id": "gaming-pc",
+      "name": "PC 游戏",
+      "policy": "PC 游戏",
+      "sources": [
+        "geosite/epicgames.list",
+        "geosite/ea.list",
+        "geosite/ubisoft.list",
+        "geosite/blizzard.list",
+        "geosite/gog.list",
+        "geosite/riot.list"
+      ]
+    },
+    {
+      "id": "gaming-console",
+      "name": "主机游戏",
+      "policy": "主机游戏",
+      "sources": [
+        "geosite/playstation.list",
+        "geosite/xbox.list",
+        "geosite/nintendo.list"
+      ]
+    },
+    {
+      "id": "storage",
+      "name": "网盘存储",
+      "policy": "网盘存储",
+      "sources": [
+        "geosite/dropbox.list",
+        "geosite/notion.list"
+      ]
+    },
+    {
+      "id": "payment",
+      "name": "支付平台",
+      "policy": "支付平台",
+      "sources": [
+        "geosite/paypal.list",
+        "geosite/stripe.list",
+        "geosite/wise.list"
+      ]
+    },
+    {
+      "id": "crypto",
+      "name": "加密货币",
+      "policy": "加密货币",
+      "sources": [
+        "geosite/binance.list"
+      ]
+    },
+    {
+      "id": "news",
+      "name": "新闻资讯",
+      "policy": "新闻资讯",
+      "sources": [
+        "geosite/bbc.list",
+        "geosite/cnn.list",
+        "geosite/nytimes.list",
+        "geosite/wsj.list",
+        "geosite/bloomberg.list"
+      ]
+    },
+    {
+      "id": "shopping",
+      "name": "海淘购物",
+      "policy": "海淘购物",
+      "sources": [
+        "geosite/amazon.list",
+        "geosite/ebay.list"
+      ]
+    },
+    {
+      "id": "adult",
+      "name": "成人内容",
+      "policy": "成人内容",
+      "sources": [
+        "geosite/category-porn.list"
+      ]
+    },
+    {
+      "id": "global",
+      "name": "非中国",
+      "policy": "Proxy",
+      "sources": [
+        "geosite/geolocation-!cn.list"
+      ]
+    },
+    {
+      "id": "cn-full",
+      "name": "国内完整域名",
+      "policy": "DIRECT",
+      "sources": [
+        "geosite/cn.list"
+      ]
+    }
+  ]
+}

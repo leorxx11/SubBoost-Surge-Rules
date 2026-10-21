@@ -1,0 +1,250 @@
+[
+  {
+    "target": "localhost",
+    "file": "private.list"
+  },
+  {
+    "target": "router.local",
+    "file": "private.list"
+  },
+  {
+    "target": "gemini.google.com",
+    "file": "gemini.list"
+  },
+  {
+    "target": "ai.google.dev",
+    "file": "gemini.list"
+  },
+  {
+    "target": "notebooklm.google.com",
+    "file": "gemini.list"
+  },
+  {
+    "target": "chatgpt.com",
+    "file": "ai.list"
+  },
+  {
+    "target": "api.openai.com",
+    "file": "ai.list"
+  },
+  {
+    "target": "claude.ai",
+    "file": "ai.list"
+  },
+  {
+    "target": "baidu.com",
+    "file": "cn.list"
+  },
+  {
+    "target": "www.bilibili.com",
+    "file": "cn-full.list"
+  },
+  {
+    "target": "www.youtube.com",
+    "file": "youtube.list"
+  },
+  {
+    "target": "i.ytimg.com",
+    "file": "youtube.list"
+  },
+  {
+    "target": "scholar.google.com",
+    "file": "google-scholar.list"
+  },
+  {
+    "target": "en.wikipedia.org",
+    "file": "education.list"
+  },
+  {
+    "target": "www.coursera.org",
+    "file": "education.list"
+  },
+  {
+    "target": "aws.amazon.com",
+    "file": "cloud.list"
+  },
+  {
+    "target": "dash.cloudflare.com",
+    "file": "cloud.list"
+  },
+  {
+    "target": "www.google.com",
+    "file": "google.list"
+  },
+  {
+    "target": "t.me",
+    "file": "telegram.list"
+  },
+  {
+    "target": "api.telegram.org",
+    "file": "telegram.list"
+  },
+  {
+    "target": "github.com",
+    "file": "github.list"
+  },
+  {
+    "target": "gitlab.com",
+    "file": "github.list"
+  },
+  {
+    "target": "www.microsoft.com",
+    "file": "microsoft.list"
+  },
+  {
+    "target": "www.apple.com",
+    "file": "apple.list"
+  },
+  {
+    "target": "x.com",
+    "file": "twitter.list"
+  },
+  {
+    "target": "www.instagram.com",
+    "file": "meta.list"
+  },
+  {
+    "target": "discord.com",
+    "file": "discord.list"
+  },
+  {
+    "target": "www.reddit.com",
+    "file": "social-other.list"
+  },
+  {
+    "target": "www.netflix.com",
+    "file": "netflix.list"
+  },
+  {
+    "target": "www.disneyplus.com",
+    "file": "disney.list"
+  },
+  {
+    "target": "open.spotify.com",
+    "file": "streaming-west.list"
+  },
+  {
+    "target": "www.bahamut.com.tw",
+    "file": "streaming-asia.list"
+  },
+  {
+    "target": "store.steampowered.com",
+    "file": "steam.list"
+  },
+  {
+    "target": "store.epicgames.com",
+    "file": "gaming-pc.list"
+  },
+  {
+    "target": "www.playstation.com",
+    "file": "gaming-console.list"
+  },
+  {
+    "target": "registry.npmjs.org",
+    "file": "dev-tools.list"
+  },
+  {
+    "target": "www.notion.so",
+    "file": "storage.list"
+  },
+  {
+    "target": "www.paypal.com",
+    "file": "payment.list"
+  },
+  {
+    "target": "www.binance.com",
+    "file": "crypto.list"
+  },
+  {
+    "target": "www.bbc.com",
+    "file": "news.list"
+  },
+  {
+    "target": "www.ebay.com",
+    "file": "shopping.list"
+  },
+  {
+    "target": "www.pornhub.com",
+    "file": "adult.list"
+  },
+  {
+    "target": "doubleclick.net",
+    "file": "ad.list"
+  },
+  {
+    "target": "127.0.0.1",
+    "file": "private-ip.list"
+  },
+  {
+    "target": "192.168.1.1",
+    "file": "private-ip.list"
+  },
+  {
+    "target": "::1",
+    "file": "private-ip.list"
+  },
+  {
+    "target": "149.154.167.51",
+    "file": "telegram-ip.list"
+  },
+  {
+    "target": "2001:b28:f23c::1",
+    "file": "telegram-ip.list"
+  },
+  {
+    "target": "223.5.5.5",
+    "file": "cn-ip.list"
+  },
+  {
+    "target": "openai.com.example.invalid",
+    "file": "private.list"
+  },
+  {
+    "target": "evilopenai.com",
+    "file": null
+  },
+  {
+    "target": "sub.openaiapi-site.azureedge.net",
+    "file": "cloud.list"
+  },
+  {
+    "target": "unlisted.example.invalid",
+    "file": "private.list"
+  },
+  {
+    "target": "openai.com.example.zzz",
+    "file": null
+  },
+  {
+    "target": "unlisted-subboost-example.zzz",
+    "file": null
+  },
+  {
+    "target": "openaiapi-site.azureedge.net",
+    "file": "ai.list"
+  },
+  {
+    "target": "8.8.8.8",
+    "file": "google-ip.list"
+  },
+  {
+    "target": "1.1.1.1",
+    "file": "cloud-ip.list"
+  },
+  {
+    "target": "104.244.42.1",
+    "file": "twitter-ip.list"
+  },
+  {
+    "target": "31.13.64.1",
+    "file": "meta-ip.list"
+  },
+  {
+    "target": "45.57.0.1",
+    "file": "netflix-ip.list"
+  },
+  {
+    "target": "proton.me",
+    "file": "global.list"
+  }
+]
