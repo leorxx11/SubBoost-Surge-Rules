@@ -9,27 +9,27 @@
   },
   {
     "target": "gemini.google.com",
-    "file": "gemini.list"
+    "file": "google.list"
   },
   {
     "target": "ai.google.dev",
-    "file": "gemini.list"
+    "file": "google.list"
   },
   {
     "target": "notebooklm.google.com",
-    "file": "gemini.list"
+    "file": "google.list"
   },
   {
     "target": "chatgpt.com",
-    "file": "ai.list"
+    "file": "openai.list"
   },
   {
     "target": "api.openai.com",
-    "file": "ai.list"
+    "file": "openai.list"
   },
   {
     "target": "claude.ai",
-    "file": "ai.list"
+    "file": "anthropic.list"
   },
   {
     "target": "baidu.com",
@@ -221,7 +221,7 @@
   },
   {
     "target": "openaiapi-site.azureedge.net",
-    "file": "ai.list"
+    "file": "openai.list"
   },
   {
     "target": "8.8.8.8",
@@ -246,5 +246,61 @@
   {
     "target": "proton.me",
     "file": "global.list"
+  },
+  {
+    "target": "auth.openai.com",
+    "file": "openai.list"
+  },
+  {
+    "target": "cdn.oaistatic.com",
+    "file": "openai.list"
+  },
+  {
+    "target": "files.oaiusercontent.com",
+    "file": "openai.list"
+  },
+  {
+    "target": "sora.com",
+    "file": "openai.list"
+  },
+  {
+    "target": "api.anthropic.com",
+    "file": "anthropic.list"
+  },
+  {
+    "target": "console.anthropic.com",
+    "file": "anthropic.list"
+  },
+  {
+    "target": "claude.com",
+    "file": "anthropic.list"
+  },
+  {
+    "target": "files.claudeusercontent.com",
+    "file": "anthropic.list"
+  },
+  {
+    "target": "www.perplexity.ai",
+    "file": "global.list"
+  },
+  {
+    "target": "api.x.ai",
+    "file": "global.list"
+  },
+  {
+    "target": "copilot.microsoft.com",
+    "file": "microsoft.list"
+  },
+  {
+    "target": "generativelanguage.googleapis.com",
+    "file": "google.list"
+  },
+  {
+    "target": "claude.ai.example.zzz",
+    "file": null
+  },
+  {
+    "target": "evilanthropic.com",
+    "file": null
   }
 ]

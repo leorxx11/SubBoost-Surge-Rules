@@ -122,11 +122,6 @@
       "entries": 903
     },
     {
-      "path": "geosite/category-ai-chat-!cn.list",
-      "sha256": "970f4d9c4acf4e02e8aab9417aa89254371fce0b232d4b8e6b01c694c699222c",
-      "entries": 204
-    },
-    {
       "path": "geosite/category-porn.list",
       "sha256": "e210174b8156b64374e4dea78cfdcb29b2ccab689877839ac3f97f9508770d79",
       "entries": 6520
@@ -235,11 +230,6 @@
       "path": "geosite/gog.list",
       "sha256": "a16bc5f06ff17f8bdb6e0cfced8296095a7af887d4c8d9a9caf9b60e4482b825",
       "entries": 8
-    },
-    {
-      "path": "geosite/google-gemini.list",
-      "sha256": "5e6d316995b6247f36472ea8e51c92770a4b78c77947ce0e9704e9f255cae74c",
-      "entries": 46
     },
     {
       "path": "geosite/google-scholar.list",
@@ -511,24 +501,22 @@
       "sha256": "48a31e1ba903b7c6e40873ba376988e3bcbe634b1f08840b136064d4e1f05cf7"
     },
     {
-      "file": "gemini.list",
-      "group": "gemini",
+      "file": "openai.list",
+      "group": "openai",
       "sources": [
-        "geosite/google-gemini.list"
+        "geosite/openai.list"
       ],
-      "entries": 46,
-      "sha256": "1256e1bf52ace80704e9436b03e721de526da31ba921dc2de1c1c3fc1ecac1d5"
+      "entries": 24,
+      "sha256": "02cc69306c9292ceb1084720c7eeec4eb1e28953dff81bc7d925a3fa2675247d"
     },
     {
-      "file": "ai.list",
-      "group": "ai",
+      "file": "anthropic.list",
+      "group": "anthropic",
       "sources": [
-        "geosite/openai.list",
-        "geosite/anthropic.list",
-        "geosite/category-ai-chat-!cn.list"
+        "geosite/anthropic.list"
       ],
-      "entries": 204,
-      "sha256": "b79a07d3b2f3310f369414e5e1b9f97e7e71beedc5b8e7d08467cf9a9eb24024"
+      "entries": 19,
+      "sha256": "4bbcf5a2bfd1bafa9f963d5bd47d36b29a5fd4dfe0b12a0f2d6121d06f0d11ef"
     },
     {
       "file": "cn.list",

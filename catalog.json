@@ -25,21 +25,19 @@
       ]
     },
     {
-      "id": "gemini",
-      "name": "Gemini",
-      "policy": "Gemini",
+      "id": "openai",
+      "name": "OpenAI",
+      "policy": "OpenAI",
       "sources": [
-        "geosite/google-gemini.list"
+        "geosite/openai.list"
       ]
     },
     {
-      "id": "ai",
-      "name": "AI 服务",
-      "policy": "AI 服务",
+      "id": "anthropic",
+      "name": "Anthropic",
+      "policy": "Anthropic",
       "sources": [
-        "geosite/openai.list",
-        "geosite/anthropic.list",
-        "geosite/category-ai-chat-!cn.list"
+        "geosite/anthropic.list"
       ]
     },
     {

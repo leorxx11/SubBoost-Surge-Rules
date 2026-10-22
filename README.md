@@ -16,8 +16,8 @@ catalog.json + 固定版本的上游 .list → Python 生成器 → rules/*.list
 
 ```ini
 [Rule]
-RULE-SET,https://raw.githubusercontent.com/leorxx11/SubBoost-Surge-Rules/main/rules/gemini.list,Gemini
-RULE-SET,https://raw.githubusercontent.com/leorxx11/SubBoost-Surge-Rules/main/rules/ai.list,AI 服务
+RULE-SET,https://raw.githubusercontent.com/leorxx11/SubBoost-Surge-Rules/main/rules/openai.list,OpenAI
+RULE-SET,https://raw.githubusercontent.com/leorxx11/SubBoost-Surge-Rules/main/rules/anthropic.list,Anthropic
 RULE-SET,https://raw.githubusercontent.com/leorxx11/SubBoost-Surge-Rules/main/rules/youtube.list,YouTube
 RULE-SET,https://raw.githubusercontent.com/leorxx11/SubBoost-Surge-Rules/main/rules/google.list,Google
 FINAL,Proxy
@@ -31,7 +31,8 @@ FINAL,Proxy
 | --- | --- | --- |
 | 广告 | ad.list | REJECT |
 | 私有域名、私有 IP | private.list、private-ip.list | DIRECT |
-| AI、Gemini | ai.list、gemini.list | AI 服务、Gemini |
+| OpenAI | openai.list | OpenAI |
+| Anthropic | anthropic.list | Anthropic |
 | 国内域名、国内 IP | cn.list、cn-full.list、cn-ip.list | DIRECT |
 | YouTube、Google、Google 学术 | youtube.list、google.list、google-ip.list、google-scholar.list | 对应业务组 |
 | Microsoft、Apple | microsoft.list、apple.list | 对应业务组 |
@@ -44,11 +45,13 @@ FINAL,Proxy
 
 Telegram、X、Meta、Netflix 和云服务还分别提供同名的 `-ip.list` 文件。每份数据的来源、条数、校验值和上游版本见 [manifest.json](rules/manifest.json)。
 
+AI 相关仅提供两个独立分组：`openai.list` 来源于上游 `geosite/openai.list`，`anthropic.list` 来源于 `geosite/anthropic.list`。不提供合并的 AI 组或其他 AI 专用分组；Gemini 等 Google 服务使用 Google 分类。
+
 ## 匹配顺序
 
 catalog.json 的 groups 数组决定域名分类的顺序，生成器据此生成引用清单：
 
-- 广告和私有域名在前；Gemini、AI、国内精简域名随后。
+- 广告和私有域名在前；OpenAI/Anthropic、国内精简域名随后。
 - YouTube、Google 学术位于 Google 前。开发工具位于代码托管前，避免 npm 被 GitHub 合集提前匹配。
 - 具体服务位于非中国通用域名集前；国内完整域名集排在所有业务及非中国域名之后，避免其中较宽的条目覆盖业务分类。
 - 域名阶段之后再排列 IP 规则：私有 IP → 业务 IP → 国内 IP。
