@@ -1,6 +1,6 @@
 # 非中国
 # Source: MetaCubeX/meta-rules-dat
-# Entries: 27268
+# Entries: 27269
 # geosite/geolocation-!cn.list
 DOMAIN,1password.drift.click
 DOMAIN,3dns-1.adobe.com
@@ -10381,6 +10381,7 @@ DOMAIN-SUFFIX,g.page
 DOMAIN-SUFFIX,g0v.social
 DOMAIN-SUFFIX,g1.com.br
 DOMAIN-SUFFIX,g6hentai.com
+DOMAIN-SUFFIX,ga.jspm.io
 DOMAIN-SUFFIX,gab.com
 DOMAIN-SUFFIX,gabocorp.com
 DOMAIN-SUFFIX,gacebook.com

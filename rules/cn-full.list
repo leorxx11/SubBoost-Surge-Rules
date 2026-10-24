@@ -1,6 +1,6 @@
 # 国内完整域名
 # Source: MetaCubeX/meta-rules-dat
-# Entries: 110446
+# Entries: 110448
 # geosite/cn.list
 DOMAIN-SUFFIX,0.zone
 DOMAIN-SUFFIX,00.net
@@ -85687,6 +85687,8 @@ DOMAIN-SUFFIX,sztxsz.com
 DOMAIN-SUFFIX,szty56.com
 DOMAIN-SUFFIX,sztz.org
 DOMAIN-SUFFIX,sztzzs.com
+DOMAIN-SUFFIX,szu.app
+DOMAIN-SUFFIX,szu.moe
 DOMAIN-SUFFIX,szuavia.org
 DOMAIN-SUFFIX,szudad.com
 DOMAIN-SUFFIX,szunionlab.com
