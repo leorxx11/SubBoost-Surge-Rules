@@ -1,6 +1,6 @@
 # 云服务
 # Source: MetaCubeX/meta-rules-dat
-# Entries: 347
+# Entries: 350
 # geosite/aws.list
 # geosite/azure.list
 # geosite/cloudflare.list
@@ -12,6 +12,8 @@ DOMAIN,afa7f374f51cc8991.awsglobalaccelerator.com
 DOMAIN,azure.microsoft.com
 DOMAIN,azuremarketplace.microsoft.com
 DOMAIN,d33wubrfki0l68.cloudfront.net
+DOMAIN,dc.applicationinsights.azure.com
+DOMAIN,live.applicationinsights.azure.com
 DOMAIN-SUFFIX,21vbc.com
 DOMAIN-SUFFIX,21vbluecloud.com
 DOMAIN-SUFFIX,21vbluecloud.net
@@ -273,6 +275,7 @@ DOMAIN-SUFFIX,gotcosmos.com
 DOMAIN-SUFFIX,hdinsightservices.cn
 DOMAIN-SUFFIX,hyper.is
 DOMAIN-SUFFIX,imagedelivery.net
+DOMAIN-SUFFIX,in.applicationinsights.azure.com
 DOMAIN-SUFFIX,isbgpsafeyet.com
 DOMAIN-SUFFIX,management-azure-devices-int.net
 DOMAIN-SUFFIX,management-azure-devices-provisioning.cn

@@ -3,7 +3,7 @@
     "repository": "MetaCubeX/meta-rules-dat",
     "branch": "meta",
     "directory": "geo",
-    "revision": "c4d4a91ff5bd2847189d502aa60bd4b0e697753b"
+    "revision": "251f53ed936ccefc5ed6407b0b85a06878e3dbe1"
   },
   "sources": [
     {
@@ -53,7 +53,7 @@
     },
     {
       "path": "geosite/amazon.list",
-      "sha256": "4b73b48cf7850a095194cfa700b5e1cf63f6e9b5d7071c45f603030eb84c1ce1",
+      "sha256": "8d1a975e552d051ac77f78472e31785a8ff08215af6c26bfa2b13057555adbb9",
       "entries": 247
     },
     {
@@ -68,7 +68,7 @@
     },
     {
       "path": "geosite/apple.list",
-      "sha256": "497cdb584f3c751aab32481d20fa3eefda3764f745cbbfe90f48744c6cbbd574",
+      "sha256": "4a6b68e499600fd502e0a2f172de8b36fa4de3cab0c835d694acf357f1e282ad",
       "entries": 1789
     },
     {
@@ -83,8 +83,8 @@
     },
     {
       "path": "geosite/azure.list",
-      "sha256": "8294f7e677491cd0a5db5e425141f88c3a998646386afcccf51b4c823b41054a",
-      "entries": 151
+      "sha256": "16eddc2aaa0e1424de3c0bb169c05fd0ceee52d4d57082c4f8f3c3ab16d2b00d",
+      "entries": 154
     },
     {
       "path": "geosite/bahamut.list",
@@ -118,22 +118,22 @@
     },
     {
       "path": "geosite/category-ads-all.list",
-      "sha256": "7ac063b423dcf0453b1424f27aeac6564e333dd06cbfc34a5e202b38c50f932c",
+      "sha256": "11298df712f46fe1d999a2a5ce3582e2baa0f34c8735f2bac0fe29ba9e2aa55b",
       "entries": 904
     },
     {
       "path": "geosite/category-porn.list",
-      "sha256": "63f78aac6ac237cd69f92bc659a20f6b9e53226d5e96ceebcea21413782a8f9c",
+      "sha256": "7f5735c5ec660d57357936781d9fcd16ebddc746d18f666f8f67bc9544313778",
       "entries": 6520
     },
     {
       "path": "geosite/category-scholar-!cn.list",
-      "sha256": "d8bdc89b2bc3d2458c1d121de48fb8a7a3f09718d8707f347056a1e86e6bb084",
+      "sha256": "e2153cd79188034df743fa2ec1163c94b831ef702e02ea18f8fd6c49657bcc51",
       "entries": 466
     },
     {
       "path": "geosite/cloudflare.list",
-      "sha256": "ce050890a31f78d22732569a351ec857ab575089a86877a52aecb2f12eff024f",
+      "sha256": "f0b3b2c6dcbcd3f6e52fb8c3fc955dfe189cada562567f019b1e1d5d35b76aba",
       "entries": 76
     },
     {
@@ -168,7 +168,7 @@
     },
     {
       "path": "geosite/disney.list",
-      "sha256": "3d791b93bbc96a114bb0283d7723d47cf0751dd42a38e9bb966e0b923cce8ff4",
+      "sha256": "c04c94c5bf3302d9930ee5d8c3a6ae1597e3a6ffcc8e650a6b22fb22175275f0",
       "entries": 224
     },
     {
@@ -208,13 +208,13 @@
     },
     {
       "path": "geosite/geolocation-!cn.list",
-      "sha256": "14108ca3ef1685090127e65d24a1d755ecdf4ccc77a26057a1296e503704dc91",
-      "entries": 27282
+      "sha256": "e2d4f4b7326ac3f7e8d858fa2ec0a4b95aa7b54d8112d4ac4dfb1bf573c6b1db",
+      "entries": 27264
     },
     {
       "path": "geosite/geolocation-cn.list",
-      "sha256": "0a6898a36ad124af9575a59cc3e5e042e5ab39bd71d79a928a01ea8c34b02a34",
-      "entries": 5405
+      "sha256": "941881f1f9fe5ab2ab36a4151485a84ba461a075d9baaba50a4152bd5123053a",
+      "entries": 5407
     },
     {
       "path": "geosite/github.list",
@@ -238,8 +238,8 @@
     },
     {
       "path": "geosite/google.list",
-      "sha256": "43f56b32d59f8f618e4567bc33f422d854f17e586f830a761ce6441d9b0bc480",
-      "entries": 1075
+      "sha256": "a41761c527399c445be43934c5e8b6fd2727a7ef1a28d8443fcc6f7077f71845",
+      "entries": 1078
     },
     {
       "path": "geosite/hbo.list",
@@ -288,12 +288,12 @@
     },
     {
       "path": "geosite/microsoft.list",
-      "sha256": "12a5666be1579eb4efa837f441759660802298f5619fbebd59fba1bdba31279e",
-      "entries": 744
+      "sha256": "e1ba1a681457f6341abe95954efe6c80ce3d4d9fbde3aed3734b344adaf0f89d",
+      "entries": 751
     },
     {
       "path": "geosite/netflix.list",
-      "sha256": "980ec18a1c566850622523310feb9ed38cd562c82e697c3da7f756b816f337d8",
+      "sha256": "aa3e83152b51840332440177399fcae048733419f4dde7a65383757beedf369a",
       "entries": 24
     },
     {
@@ -338,7 +338,7 @@
     },
     {
       "path": "geosite/paypal.list",
-      "sha256": "6fd7d4431e95cf94550a87685acb984334d469ec7b2cdb2945c6087cb9096147",
+      "sha256": "ceff7120641d50e10bb1dafa2578459db50a7511d28df1176322a9730c1ccda2",
       "entries": 245
     },
     {
@@ -378,7 +378,7 @@
     },
     {
       "path": "geosite/spotify.list",
-      "sha256": "848d93a2d8da4caa0d0338e303e3b3da8cb56a7e5d58431e43d8a94b5f2d3080",
+      "sha256": "cc8ae18677b29c1b741ab47332f3696defe9b059d9a9a8763d7bcb5e28a53076",
       "entries": 28
     },
     {
@@ -524,8 +524,8 @@
       "sources": [
         "geosite/geolocation-cn.list"
       ],
-      "entries": 5405,
-      "sha256": "62dc88f40ddc6f07d58d75fe77630398bb97885806e98e08d6e9d42d9e6c7563"
+      "entries": 5407,
+      "sha256": "bfda564945b110fb8bebdf33ff149208a49679081430293332c14c64ecc1df25"
     },
     {
       "file": "cn-ip.list",
@@ -591,8 +591,8 @@
         "geosite/vercel.list",
         "geosite/netlify.list"
       ],
-      "entries": 347,
-      "sha256": "c7a53b6bbf36ae202b23ccfba905f6ea75825bf3d313290e9c084558f3e8660b"
+      "entries": 350,
+      "sha256": "ff3333d4594c12304aa675c15ce7e9d83448bf7b84106754417cae58a40d3ec8"
     },
     {
       "file": "cloud-ip.list",
@@ -609,8 +609,8 @@
       "sources": [
         "geosite/google.list"
       ],
-      "entries": 1075,
-      "sha256": "c075f0461aa69d1c64e84d9218200205ddc7edd5ecb02347b8bf1f1ea61aea54"
+      "entries": 1078,
+      "sha256": "14b0e5beea1a0b1fd4f0485cb9a1108620381cbb711b1528da5068e22edfc27e"
     },
     {
       "file": "google-ip.list",
@@ -657,8 +657,8 @@
         "geosite/microsoft.list",
         "geosite/onedrive.list"
       ],
-      "entries": 750,
-      "sha256": "aca3da38031ce653c32eef1847742856221e7eda724a3e931bf68bf1629fca90"
+      "entries": 757,
+      "sha256": "043e3bf83eab20e5bce52181149876dd5af90a849f7cf67747d63cf78b633153"
     },
     {
       "file": "apple.list",
@@ -739,7 +739,7 @@
         "geosite/netflix.list"
       ],
       "entries": 24,
-      "sha256": "5dd6e832a1baf095c604e56816665fe5cceeb73f77527b5614a842aef5f62737"
+      "sha256": "23c5724343809943181ee962f7fe0b3fabf2704a6972624bcf2e9b4971238062"
     },
     {
       "file": "netflix-ip.list",
@@ -772,7 +772,7 @@
         "geosite/dazn.list"
       ],
       "entries": 216,
-      "sha256": "5694712ef6fc0eab8b529ea7f50dec69f65a33726b12b9900f516cb29e0524f0"
+      "sha256": "87550cdffa9928f6a01211084fc0c14fa0904fdeca5a07ac75218a74dbdf29d2"
     },
     {
       "file": "streaming-asia.list",
@@ -890,8 +890,8 @@
       "sources": [
         "geosite/geolocation-!cn.list"
       ],
-      "entries": 27282,
-      "sha256": "6c3e4f1e6adf979fc9462979f35cd76808ce00810101f81bd9e4f9b1ff986860"
+      "entries": 27264,
+      "sha256": "786310ffa117b74ebd02500182dad40efd67b94d92d084d72bb0f0ab0cb178c7"
     },
     {
       "file": "cn-full.list",
