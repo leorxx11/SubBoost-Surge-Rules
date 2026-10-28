@@ -3,7 +3,7 @@
     "repository": "MetaCubeX/meta-rules-dat",
     "branch": "meta",
     "directory": "geo",
-    "revision": "251f53ed936ccefc5ed6407b0b85a06878e3dbe1"
+    "revision": "9f2b7462c7508ad85a1137e70d502b783c89794d"
   },
   "sources": [
     {
@@ -53,7 +53,7 @@
     },
     {
       "path": "geosite/amazon.list",
-      "sha256": "8d1a975e552d051ac77f78472e31785a8ff08215af6c26bfa2b13057555adbb9",
+      "sha256": "4b4e7c1770e3d47c5055a39645a62c68c8e2faa44fecacdbd14ef339889d8791",
       "entries": 247
     },
     {
@@ -68,8 +68,8 @@
     },
     {
       "path": "geosite/apple.list",
-      "sha256": "4a6b68e499600fd502e0a2f172de8b36fa4de3cab0c835d694acf357f1e282ad",
-      "entries": 1789
+      "sha256": "daba187b4309180878c2c357d9e672d321629cad67bf91e4ac0c367fb0fba26a",
+      "entries": 1791
     },
     {
       "path": "geosite/atlassian.list",
@@ -118,17 +118,17 @@
     },
     {
       "path": "geosite/category-ads-all.list",
-      "sha256": "11298df712f46fe1d999a2a5ce3582e2baa0f34c8735f2bac0fe29ba9e2aa55b",
+      "sha256": "daae3464da5d946a4617dd7b9532de4c6ab39e2f767f1cf94a1dd88649343272",
       "entries": 904
     },
     {
       "path": "geosite/category-porn.list",
-      "sha256": "7f5735c5ec660d57357936781d9fcd16ebddc746d18f666f8f67bc9544313778",
+      "sha256": "d27c549c9cb4517902f919a47a789df8150cb26e1f5a2e52abecc8e4496c4f72",
       "entries": 6520
     },
     {
       "path": "geosite/category-scholar-!cn.list",
-      "sha256": "e2153cd79188034df743fa2ec1163c94b831ef702e02ea18f8fd6c49657bcc51",
+      "sha256": "3a59c6570edcab2c638d61f171189a1b206ed5d11ba91bd9d79a381c7b57eb44",
       "entries": 466
     },
     {
@@ -138,8 +138,8 @@
     },
     {
       "path": "geosite/cn.list",
-      "sha256": "bfd24ad933d1d6b85126a0663886f9864afebcc0a3fb020df13aa148955d6b12",
-      "entries": 110175
+      "sha256": "703c706f925afa756a404136ce2cbea856763969d241280ce55345519dc9332f",
+      "entries": 110177
     },
     {
       "path": "geosite/cnn.list",
@@ -168,7 +168,7 @@
     },
     {
       "path": "geosite/disney.list",
-      "sha256": "c04c94c5bf3302d9930ee5d8c3a6ae1597e3a6ffcc8e650a6b22fb22175275f0",
+      "sha256": "38a70a7f8cd7dcf2f49667718f9e5439b2f5a1a2f3fda8f6cc9efad302cc3847",
       "entries": 224
     },
     {
@@ -208,12 +208,12 @@
     },
     {
       "path": "geosite/geolocation-!cn.list",
-      "sha256": "e2d4f4b7326ac3f7e8d858fa2ec0a4b95aa7b54d8112d4ac4dfb1bf573c6b1db",
-      "entries": 27264
+      "sha256": "6c8972542bf1cfa882f298eb093d3f1a0d9d1e811c07ca7089e74625b21843e1",
+      "entries": 27271
     },
     {
       "path": "geosite/geolocation-cn.list",
-      "sha256": "941881f1f9fe5ab2ab36a4151485a84ba461a075d9baaba50a4152bd5123053a",
+      "sha256": "126d1eb1fda9155bd4ec4204862fe772232853fe41f4f2d97c9ffb03a5605af6",
       "entries": 5407
     },
     {
@@ -238,7 +238,7 @@
     },
     {
       "path": "geosite/google.list",
-      "sha256": "a41761c527399c445be43934c5e8b6fd2727a7ef1a28d8443fcc6f7077f71845",
+      "sha256": "5ff7f86ee2e3b3f84e1ce6980581fcc644b32f1bdbe314bcec4a6ca904a77340",
       "entries": 1078
     },
     {
@@ -288,7 +288,7 @@
     },
     {
       "path": "geosite/microsoft.list",
-      "sha256": "e1ba1a681457f6341abe95954efe6c80ce3d4d9fbde3aed3734b344adaf0f89d",
+      "sha256": "da1dbd539c5318be94480677d962adfe4fc896940bccccff9dd7a9af25a71537",
       "entries": 751
     },
     {
@@ -667,8 +667,8 @@
         "geosite/apple.list",
         "geosite/icloud.list"
       ],
-      "entries": 1789,
-      "sha256": "08aa27f33d8d5ffcc093819560643214c4d851e0f174b800cf21024ab94881cd"
+      "entries": 1791,
+      "sha256": "7a710d5211bbc2ded974870edf79319ada86e2d275a94d4d24f914efc4a7f51d"
     },
     {
       "file": "twitter.list",
@@ -890,8 +890,8 @@
       "sources": [
         "geosite/geolocation-!cn.list"
       ],
-      "entries": 27264,
-      "sha256": "786310ffa117b74ebd02500182dad40efd67b94d92d084d72bb0f0ab0cb178c7"
+      "entries": 27271,
+      "sha256": "f62d802112d0aa17ffd0df98eec0e24abcf96306c8ae5f1aca480d73e69ff599"
     },
     {
       "file": "cn-full.list",
@@ -899,8 +899,8 @@
       "sources": [
         "geosite/cn.list"
       ],
-      "entries": 110175,
-      "sha256": "cee4da82839e2ad787fc3413f3a308bec17fe11eae96b332a42970a4cdcf3e2f"
+      "entries": 110177,
+      "sha256": "8aedd707ec95d9cecaeececcc7ac30e72eec82986106fa1945555a4abe9e607e"
     }
   ]
 }
