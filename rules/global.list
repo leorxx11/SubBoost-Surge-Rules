@@ -1,6 +1,6 @@
 # 非中国
 # Source: MetaCubeX/meta-rules-dat
-# Entries: 27271
+# Entries: 27272
 # geosite/geolocation-!cn.list
 DOMAIN,1password.drift.click
 DOMAIN,3dns-1.adobe.com
@@ -13777,6 +13777,7 @@ DOMAIN-SUFFIX,ius.io
 DOMAIN-SUFFIX,iutunes.com
 DOMAIN-SUFFIX,ivacy.com
 DOMAIN-SUFFIX,ivi.ru
+DOMAIN-SUFFIX,ivi.tv
 DOMAIN-SUFFIX,ivicdn.tv
 DOMAIN-SUFFIX,ivintageporn.com
 DOMAIN-SUFFIX,ivonblog.com
