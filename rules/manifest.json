@@ -3,7 +3,7 @@
     "repository": "MetaCubeX/meta-rules-dat",
     "branch": "meta",
     "directory": "geo",
-    "revision": "74246501fd12b938b73482f406a6163d1e4a460f"
+    "revision": "4d9cbf4cc642e29a5cb016a724083094d9a01d99"
   },
   "sources": [
     {
@@ -68,7 +68,7 @@
     },
     {
       "path": "geosite/apple.list",
-      "sha256": "4200ebdfceb6a45c0df17881d9494600bb3a4d53681fd676872d25bac40bbfe7",
+      "sha256": "cfa3bf6b6c2e40566305605bcd488a789a9525eb1bbf78c4273f422201afe8af",
       "entries": 1791
     },
     {
@@ -118,17 +118,17 @@
     },
     {
       "path": "geosite/category-ads-all.list",
-      "sha256": "159b642a6c6af0ce20560cc68038f61a41f43d454d0807428fa2645ac5f5cd24",
+      "sha256": "d67739e4eb436cb25fcbeb16f15e1ebfc5ce61a8f22d03ff145ce2adc2865457",
       "entries": 904
     },
     {
       "path": "geosite/category-porn.list",
-      "sha256": "9f58a4417aecaf4680312112ffb2e29ef9cf125ef88358315f0abbf462356bb3",
+      "sha256": "e5d1baee2902fcd795a45d13e91069b7fc71bde00e939c33a203cc9d4ba9a27b",
       "entries": 6520
     },
     {
       "path": "geosite/category-scholar-!cn.list",
-      "sha256": "022839ea7783e626c7b05a53dfe486a4b2545b96f020e0c74b85fe4bfed49517",
+      "sha256": "d4297b6e54b83203a0eeaa743a6560393baa53c347cf240be984c24cc5acce49",
       "entries": 466
     },
     {
@@ -168,7 +168,7 @@
     },
     {
       "path": "geosite/disney.list",
-      "sha256": "38a70a7f8cd7dcf2f49667718f9e5439b2f5a1a2f3fda8f6cc9efad302cc3847",
+      "sha256": "6367fc2d6085aef54cfc29672bf624c8445ea5e86504a3974129a82206559682",
       "entries": 224
     },
     {
@@ -213,7 +213,7 @@
     },
     {
       "path": "geosite/geolocation-cn.list",
-      "sha256": "6aa7aade3555fd37180e2ac72906fa990def80790acd79bfacc0686dc8dda390",
+      "sha256": "570f0be674beb49eb805e7869fd8c3575c8f4ca89c1d709ee1d19ea279bebec1",
       "entries": 5407
     },
     {
@@ -238,7 +238,7 @@
     },
     {
       "path": "geosite/google.list",
-      "sha256": "377c90a879ab436875117051cb8416e3d72d7daae74b83b45ba08cba5a0b1b68",
+      "sha256": "5216128f64b3a45bc1801e9346b623ef921342fa8ed3afa0bce5c2f6418c0427",
       "entries": 1078
     },
     {
@@ -288,7 +288,7 @@
     },
     {
       "path": "geosite/microsoft.list",
-      "sha256": "8f16bb80bac7d71ee5ba33db81d18610c3fe57431d4496c8524f954d31b1554a",
+      "sha256": "cdca038133d65d2be2e988dfbf2eade3d401bb0c2338396a5e76fad66e59bd78",
       "entries": 751
     },
     {
