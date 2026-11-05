@@ -1,8 +1,9 @@
 # X IP
 # Source: MetaCubeX/meta-rules-dat
-# Entries: 19
+# Entries: 20
 # geoip/twitter.list
 IP-CIDR,103.252.112.0/22,no-resolve
+IP-CIDR,104.244.41.0/24,no-resolve
 IP-CIDR,104.244.42.0/24,no-resolve
 IP-CIDR,104.244.44.0/22,no-resolve
 IP-CIDR,185.45.4.0/22,no-resolve
