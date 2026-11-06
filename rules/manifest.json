@@ -3,7 +3,7 @@
     "repository": "MetaCubeX/meta-rules-dat",
     "branch": "meta",
     "directory": "geo",
-    "revision": "461790d18a151728e834979aad03cb29e256d181"
+    "revision": "1fc5de325d54d3b77d6b86a1db900c5e48ae1003"
   },
   "sources": [
     {
@@ -53,7 +53,7 @@
     },
     {
       "path": "geosite/amazon.list",
-      "sha256": "4b4e7c1770e3d47c5055a39645a62c68c8e2faa44fecacdbd14ef339889d8791",
+      "sha256": "7302f792b9a57fe2e0e29a213663e975ba4ccd44f1725e6236b5c3b40abbee5c",
       "entries": 247
     },
     {
@@ -68,7 +68,7 @@
     },
     {
       "path": "geosite/apple.list",
-      "sha256": "dfa8c11aa49f8fff882ba84cd9e352b38a8ff9e1d0cb4db4f5d67436bb4ef8d9",
+      "sha256": "3e690d7b74274a1d4dac4c66e38c8e5ee3ae1df991c9db6ed5e904f08eb9bce8",
       "entries": 1791
     },
     {
@@ -118,17 +118,17 @@
     },
     {
       "path": "geosite/category-ads-all.list",
-      "sha256": "e3ef10726784450c55a36e656db01c8e5ec708ff2d93df4a38925a7572c6291b",
+      "sha256": "2eee29660be2a66fd8a58f711c5effdfa2d9ccf6d1e39016fb8f2610388dd134",
       "entries": 904
     },
     {
       "path": "geosite/category-porn.list",
-      "sha256": "628d897bc33eac1a18ffb02b59f60b1cd98233c587fb13d6c168dfa22b085d11",
+      "sha256": "6848591a1b1ff20ef41456ca892bf8db689c94b3835901abbdddb5f6bedf1e17",
       "entries": 6521
     },
     {
       "path": "geosite/category-scholar-!cn.list",
-      "sha256": "a6a9eae54b454091a0a02595412de9170b15aa770dc667a2c16ed63abd43de8f",
+      "sha256": "bfcef9fe6c552b676bafb74b29a06fc34e49915fc98d61e4131714e2d00319a3",
       "entries": 466
     },
     {
@@ -168,7 +168,7 @@
     },
     {
       "path": "geosite/disney.list",
-      "sha256": "9e7a51f96e59087d40e2b77cce6a27d115f62aa8cfdf5e3137e28a56a8ed0797",
+      "sha256": "507a784631a66f243ea68abb169addf88120959c3827ec0bac7f8dbfbc9e5608",
       "entries": 224
     },
     {
@@ -213,12 +213,12 @@
     },
     {
       "path": "geosite/geolocation-cn.list",
-      "sha256": "cb630e4439e9dbf050a10a2401fae179562693a156fb3c9afeadf68859c805ea",
+      "sha256": "f0af0d035baefe5246c5f030c259659fd70f6c3c3282b0d138e496b43b7729fe",
       "entries": 5421
     },
     {
       "path": "geosite/github.list",
-      "sha256": "58fad9a70ecb92de3b36ecf8fc63cab3839836e611c8a5dea58df4947cb2df0c",
+      "sha256": "e1f8c98a265ce67ffaddded86e71d0d76595212eb4f331eb2d2e52e52d07beda",
       "entries": 65
     },
     {
@@ -238,7 +238,7 @@
     },
     {
       "path": "geosite/google.list",
-      "sha256": "54116bdd6a8e4b6eb813aefef655f77106c40c49f2b0ac7f563df6f9ac9e726a",
+      "sha256": "ce967150c0ab46b1c501dd11fff1dd8457a3091ec128185f50388938f5545905",
       "entries": 1078
     },
     {
@@ -288,7 +288,7 @@
     },
     {
       "path": "geosite/microsoft.list",
-      "sha256": "3247102c9a2517100a34ef148ad91230278ee6be07408e3148b8c55d3b4d6cf4",
+      "sha256": "112bdea67250ca90868a00d7f53a6d2563979b00d0094419efd35c11130790e0",
       "entries": 753
     },
     {
