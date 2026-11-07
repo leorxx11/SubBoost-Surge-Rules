@@ -3,7 +3,7 @@
     "repository": "MetaCubeX/meta-rules-dat",
     "branch": "meta",
     "directory": "geo",
-    "revision": "1fc5de325d54d3b77d6b86a1db900c5e48ae1003"
+    "revision": "7226545410c4dbb3854a5235803a26d86a298072"
   },
   "sources": [
     {
@@ -53,7 +53,7 @@
     },
     {
       "path": "geosite/amazon.list",
-      "sha256": "7302f792b9a57fe2e0e29a213663e975ba4ccd44f1725e6236b5c3b40abbee5c",
+      "sha256": "4b4e7c1770e3d47c5055a39645a62c68c8e2faa44fecacdbd14ef339889d8791",
       "entries": 247
     },
     {
@@ -68,8 +68,8 @@
     },
     {
       "path": "geosite/apple.list",
-      "sha256": "3e690d7b74274a1d4dac4c66e38c8e5ee3ae1df991c9db6ed5e904f08eb9bce8",
-      "entries": 1791
+      "sha256": "fd8982a2b34e0729c5b801cb650ef442950f553b635eed4b1e5900173063e31e",
+      "entries": 1792
     },
     {
       "path": "geosite/atlassian.list",
@@ -118,17 +118,17 @@
     },
     {
       "path": "geosite/category-ads-all.list",
-      "sha256": "2eee29660be2a66fd8a58f711c5effdfa2d9ccf6d1e39016fb8f2610388dd134",
-      "entries": 904
+      "sha256": "eda6c72409b840a8f1014af7f0c652d4c372acd98f1961577a1c6a9d62ca4821",
+      "entries": 908
     },
     {
       "path": "geosite/category-porn.list",
-      "sha256": "6848591a1b1ff20ef41456ca892bf8db689c94b3835901abbdddb5f6bedf1e17",
+      "sha256": "0135f0e0a20d2de22e0f24fe4db9bca8d5a6f4b1c27b21d6de7e48ff38df78c8",
       "entries": 6521
     },
     {
       "path": "geosite/category-scholar-!cn.list",
-      "sha256": "bfcef9fe6c552b676bafb74b29a06fc34e49915fc98d61e4131714e2d00319a3",
+      "sha256": "56eb36e15816c3393bbef6ebd26adb122542fc371350f9593417c8c062c1c3ba",
       "entries": 466
     },
     {
@@ -168,7 +168,7 @@
     },
     {
       "path": "geosite/disney.list",
-      "sha256": "507a784631a66f243ea68abb169addf88120959c3827ec0bac7f8dbfbc9e5608",
+      "sha256": "5a4f644b98a36cbcbf8082029bb9c176e5b38ceeb19d39501ace132cea0c43bd",
       "entries": 224
     },
     {
@@ -213,12 +213,12 @@
     },
     {
       "path": "geosite/geolocation-cn.list",
-      "sha256": "f0af0d035baefe5246c5f030c259659fd70f6c3c3282b0d138e496b43b7729fe",
-      "entries": 5421
+      "sha256": "23dd6bef5d72241d9e2f91c043a7c0af6b5c07815b011e3b731bb144712038fc",
+      "entries": 5436
     },
     {
       "path": "geosite/github.list",
-      "sha256": "e1f8c98a265ce67ffaddded86e71d0d76595212eb4f331eb2d2e52e52d07beda",
+      "sha256": "58fad9a70ecb92de3b36ecf8fc63cab3839836e611c8a5dea58df4947cb2df0c",
       "entries": 65
     },
     {
@@ -238,7 +238,7 @@
     },
     {
       "path": "geosite/google.list",
-      "sha256": "ce967150c0ab46b1c501dd11fff1dd8457a3091ec128185f50388938f5545905",
+      "sha256": "90ddea3cb6914c0a8549066e6aa697c76f8653412a6974bd04c56101e9626f96",
       "entries": 1078
     },
     {
@@ -288,7 +288,7 @@
     },
     {
       "path": "geosite/microsoft.list",
-      "sha256": "112bdea67250ca90868a00d7f53a6d2563979b00d0094419efd35c11130790e0",
+      "sha256": "a2e1acc9d96c51eedd7523858522d889c3df7fce3c54ee38d91460d94261c9f9",
       "entries": 753
     },
     {
@@ -463,7 +463,7 @@
     },
     {
       "path": "geosite/xbox.list",
-      "sha256": "d4802678933738dac9c6c8db6a058c058fdb2caee9717965d5583d9348dea4f5",
+      "sha256": "8720dd0c0e20f9627ca33ba0da5242714df232ba4fa5846bbdac062dbcc93bfc",
       "entries": 42
     },
     {
@@ -479,8 +479,8 @@
       "sources": [
         "geosite/category-ads-all.list"
       ],
-      "entries": 904,
-      "sha256": "f485d576799cbb8de9ad96647546de9b5668b22925991f16f61232898a6718a0"
+      "entries": 908,
+      "sha256": "36ed825bee83b77cb5e17ff8418803467185934c176622997055e1aa874a78e5"
     },
     {
       "file": "private.list",
@@ -524,8 +524,8 @@
       "sources": [
         "geosite/geolocation-cn.list"
       ],
-      "entries": 5421,
-      "sha256": "b04be720e3ed76523b981fe88ce731964f643d2637c21053d72f3cae3d4106cd"
+      "entries": 5436,
+      "sha256": "d338564379e99924e2616d2c3abdc3d9e16098fa4df0c472c2609221ed1af004"
     },
     {
       "file": "cn-ip.list",
@@ -667,8 +667,8 @@
         "geosite/apple.list",
         "geosite/icloud.list"
       ],
-      "entries": 1791,
-      "sha256": "7a710d5211bbc2ded974870edf79319ada86e2d275a94d4d24f914efc4a7f51d"
+      "entries": 1792,
+      "sha256": "ec2d4ea6f8c906c4edf9bd3a38880409f19bbe4a7c43da8a82c42dd320a2cfea"
     },
     {
       "file": "twitter.list",
