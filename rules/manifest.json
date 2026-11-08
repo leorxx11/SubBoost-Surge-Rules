@@ -3,7 +3,7 @@
     "repository": "MetaCubeX/meta-rules-dat",
     "branch": "meta",
     "directory": "geo",
-    "revision": "7226545410c4dbb3854a5235803a26d86a298072"
+    "revision": "26cf4440307754d2c2f65cf2f0457c0ae814900f"
   },
   "sources": [
     {
@@ -53,13 +53,13 @@
     },
     {
       "path": "geosite/amazon.list",
-      "sha256": "4b4e7c1770e3d47c5055a39645a62c68c8e2faa44fecacdbd14ef339889d8791",
+      "sha256": "bc426132455344330c977ff13922151e622d2e9fdbf73c5127a0d85f044d1090",
       "entries": 247
     },
     {
       "path": "geosite/anthropic.list",
-      "sha256": "743d2793433a2bd280c1bb5c82ce5389fc1c7668b4edf9101090a27a1d2f4c81",
-      "entries": 19
+      "sha256": "31ef22b857da25cdfb4080bde74a485fed52eccc6fc14311193f811945938d78",
+      "entries": 21
     },
     {
       "path": "geosite/apple-tvplus.list",
@@ -68,7 +68,7 @@
     },
     {
       "path": "geosite/apple.list",
-      "sha256": "fd8982a2b34e0729c5b801cb650ef442950f553b635eed4b1e5900173063e31e",
+      "sha256": "e983cda1345fee49fea1aa0911ec76e99dfe41d737a8f8e0952ea8dcde541118",
       "entries": 1792
     },
     {
@@ -118,17 +118,17 @@
     },
     {
       "path": "geosite/category-ads-all.list",
-      "sha256": "eda6c72409b840a8f1014af7f0c652d4c372acd98f1961577a1c6a9d62ca4821",
+      "sha256": "91c500f04f179c6582430b4ea7ffcaf51f58eed45345b41995b4dd3306351393",
       "entries": 908
     },
     {
       "path": "geosite/category-porn.list",
-      "sha256": "0135f0e0a20d2de22e0f24fe4db9bca8d5a6f4b1c27b21d6de7e48ff38df78c8",
+      "sha256": "dc27c83d9bc037a7a986cee2af14b8e5fc4440dc4dbc2300ce76b6f8d4b82e3d",
       "entries": 6521
     },
     {
       "path": "geosite/category-scholar-!cn.list",
-      "sha256": "56eb36e15816c3393bbef6ebd26adb122542fc371350f9593417c8c062c1c3ba",
+      "sha256": "94913426f59b6b2b988433d14508e599e065a51180bd2ad20da8a18770340a45",
       "entries": 466
     },
     {
@@ -168,7 +168,7 @@
     },
     {
       "path": "geosite/disney.list",
-      "sha256": "5a4f644b98a36cbcbf8082029bb9c176e5b38ceeb19d39501ace132cea0c43bd",
+      "sha256": "3d791b93bbc96a114bb0283d7723d47cf0751dd42a38e9bb966e0b923cce8ff4",
       "entries": 224
     },
     {
@@ -208,18 +208,18 @@
     },
     {
       "path": "geosite/geolocation-!cn.list",
-      "sha256": "76267b2e6c69769517ac1d8f6860611e776d62c7e5dffdbd6004cb39a16f8017",
-      "entries": 27298
+      "sha256": "d535e014b32299fef5fb35ca65e73dfcabbfcfa56437b5c89d6a2b0d777eca85",
+      "entries": 27302
     },
     {
       "path": "geosite/geolocation-cn.list",
-      "sha256": "23dd6bef5d72241d9e2f91c043a7c0af6b5c07815b011e3b731bb144712038fc",
+      "sha256": "ad60f0fee306354a3f74e63f56b357f27fe28662eb53538ef2b4e3beaff2581c",
       "entries": 5436
     },
     {
       "path": "geosite/github.list",
-      "sha256": "58fad9a70ecb92de3b36ecf8fc63cab3839836e611c8a5dea58df4947cb2df0c",
-      "entries": 65
+      "sha256": "df4830f1c82e3e5bfef499d48a9540e948bdb83235f1c3fd311780691bfd7fc0",
+      "entries": 66
     },
     {
       "path": "geosite/gitlab.list",
@@ -238,7 +238,7 @@
     },
     {
       "path": "geosite/google.list",
-      "sha256": "90ddea3cb6914c0a8549066e6aa697c76f8653412a6974bd04c56101e9626f96",
+      "sha256": "c08f5a59b1c26150f09d5fd412d31e0179e691b20b0ec6377345bdc9f6e3978d",
       "entries": 1078
     },
     {
@@ -288,8 +288,8 @@
     },
     {
       "path": "geosite/microsoft.list",
-      "sha256": "a2e1acc9d96c51eedd7523858522d889c3df7fce3c54ee38d91460d94261c9f9",
-      "entries": 753
+      "sha256": "216e3ce10af1a3e4acdc9a3dbc9cee9ec20f93b02512a633de109b533de70b52",
+      "entries": 754
     },
     {
       "path": "geosite/netflix.list",
@@ -515,8 +515,8 @@
       "sources": [
         "geosite/anthropic.list"
       ],
-      "entries": 19,
-      "sha256": "4bbcf5a2bfd1bafa9f963d5bd47d36b29a5fd4dfe0b12a0f2d6121d06f0d11ef"
+      "entries": 21,
+      "sha256": "1a469a0f119549a6ebcfa3ac5c292a2a761cdc9e27b8aa0798c84497c045fa9d"
     },
     {
       "file": "cn.list",
@@ -647,8 +647,8 @@
         "geosite/gitlab.list",
         "geosite/atlassian.list"
       ],
-      "entries": 81,
-      "sha256": "f1a4d13c7d28d1e89515bebab2aceee9d54db70ddf7bd8665dcfe004771bd3f1"
+      "entries": 82,
+      "sha256": "d54f5b26f9b7e84f123562542af0a63f8af98c7fee6b21616110f3245ba61ec2"
     },
     {
       "file": "microsoft.list",
@@ -657,8 +657,8 @@
         "geosite/microsoft.list",
         "geosite/onedrive.list"
       ],
-      "entries": 759,
-      "sha256": "c8dbb6d29f113c62bd65886d28ddde1c8cd919d79451b0b2ab2a503bacaf783d"
+      "entries": 760,
+      "sha256": "6cbe7e8ee977e0fcee27d52746a76b03f3c9642d4afb84b8381d8042a60e22c3"
     },
     {
       "file": "apple.list",
@@ -890,8 +890,8 @@
       "sources": [
         "geosite/geolocation-!cn.list"
       ],
-      "entries": 27298,
-      "sha256": "701bfa00cfc71cfffcaac3786fa45b588be9f6e0d7d6c3b49c107b6070293254"
+      "entries": 27302,
+      "sha256": "3e4022e892c9550899a61f5288cdd6b75612a9fdea885494666eaa5b8eb81d6f"
     },
     {
       "file": "cn-full.list",

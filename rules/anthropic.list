@@ -1,7 +1,9 @@
 # Anthropic
 # Source: MetaCubeX/meta-rules-dat
-# Entries: 19
+# Entries: 21
 # geosite/anthropic.list
+DOMAIN,http-intake.logs.us5.datadoghq.com
+DOMAIN,o1158394.ingest.us.sentry.io
 DOMAIN,servd-anthropic-website.b-cdn.net
 DOMAIN-SUFFIX,ant.dev
 DOMAIN-SUFFIX,anthropic.com
