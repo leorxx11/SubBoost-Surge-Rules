@@ -1,6 +1,6 @@
 # 国内服务
 # Source: MetaCubeX/meta-rules-dat
-# Entries: 5436
+# Entries: 5437
 # geosite/geolocation-cn.list
 DOMAIN,ai.zhaomi.cn
 DOMAIN,api.blipsandchitz.me
@@ -3514,6 +3514,7 @@ DOMAIN-SUFFIX,nfpeople.com
 DOMAIN-SUFFIX,nga.cn
 DOMAIN-SUFFIX,ngabbs.com
 DOMAIN-SUFFIX,ngacn.cc
+DOMAIN-SUFFIX,nia-teams.com
 DOMAIN-SUFFIX,nicaifu.com
 DOMAIN-SUFFIX,nicezhuanye.com
 DOMAIN-SUFFIX,nihaoafrica.org

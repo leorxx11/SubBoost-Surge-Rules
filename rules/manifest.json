@@ -3,7 +3,7 @@
     "repository": "MetaCubeX/meta-rules-dat",
     "branch": "meta",
     "directory": "geo",
-    "revision": "7861772837d405921b48f911f458546b849b7e66"
+    "revision": "e731d6be701afb91548fe0b76380d5022f7f4c02"
   },
   "sources": [
     {
@@ -53,7 +53,7 @@
     },
     {
       "path": "geosite/amazon.list",
-      "sha256": "1541354df3b6b11f0295063878c7d5dfd1be437a6d2635f9f366a20dba7bbec2",
+      "sha256": "8d1a975e552d051ac77f78472e31785a8ff08215af6c26bfa2b13057555adbb9",
       "entries": 247
     },
     {
@@ -68,7 +68,7 @@
     },
     {
       "path": "geosite/apple.list",
-      "sha256": "6ceea9defd486662b0abbabe59a3b96df49acde577e7764a94cb7202562f9f88",
+      "sha256": "2ccfe0e118ac51eeb56c401f707aba5dee1c7b4ebb4df309740b13e37c5bbbc0",
       "entries": 1792
     },
     {
@@ -118,17 +118,17 @@
     },
     {
       "path": "geosite/category-ads-all.list",
-      "sha256": "9f06cfab48d292a43637c9ffb21887ff5cef978e4cb8162c73853e2ab986e341",
+      "sha256": "59a41120166606ee005debf96e4b0674a096984e65048953a850f3a399a9afa6",
       "entries": 908
     },
     {
       "path": "geosite/category-porn.list",
-      "sha256": "f2d4464e24a05e90682132ee6f9ff945efba51718f2cf82bf939a58da851980b",
+      "sha256": "0c9af6ebda0d1592203c41923dcaae0fa89bdbec374bf217f22f43839666c113",
       "entries": 6521
     },
     {
       "path": "geosite/category-scholar-!cn.list",
-      "sha256": "31dd3f51fd98940d8b50231ce18d441e9b3e4ed41e947e467665cfde78e941fa",
+      "sha256": "506e608d0642a1df746c6a0b1af942444035685bf778aae74d01abdce7e64830",
       "entries": 466
     },
     {
@@ -213,8 +213,8 @@
     },
     {
       "path": "geosite/geolocation-cn.list",
-      "sha256": "43ef28e720cfb73892de00a00db4fdc1f65d0cc198a8fd91612937fa4fef605f",
-      "entries": 5436
+      "sha256": "7dcd2d7e288d3db64362991ae09f590509bd4ccf09bb8b18e231f1401223d984",
+      "entries": 5437
     },
     {
       "path": "geosite/github.list",
@@ -238,7 +238,7 @@
     },
     {
       "path": "geosite/google.list",
-      "sha256": "2da9a0e60e30ac8ba12ade26fe82edd9ee7110e65ed731d38ecf6195e3fb651f",
+      "sha256": "8d74c89c76b7692a1a78bc89a49e411b31cd1f2f352765b58a83071d75f3b302",
       "entries": 1078
     },
     {
@@ -288,7 +288,7 @@
     },
     {
       "path": "geosite/microsoft.list",
-      "sha256": "b01b00b262ea2dd453557783d66db56fffd81a081288f1f7288d1697038b9006",
+      "sha256": "ce5c698660eebda1d1be3117843c57b3e2f8a3b070b81f884e6028001d4918b1",
       "entries": 754
     },
     {
@@ -524,8 +524,8 @@
       "sources": [
         "geosite/geolocation-cn.list"
       ],
-      "entries": 5436,
-      "sha256": "d338564379e99924e2616d2c3abdc3d9e16098fa4df0c472c2609221ed1af004"
+      "entries": 5437,
+      "sha256": "98d494d2b743f052eb2f62212a6fc67b287284dd5d9d4b37bd6db49a670570da"
     },
     {
       "file": "cn-ip.list",
