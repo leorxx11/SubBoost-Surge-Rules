@@ -3,7 +3,7 @@
     "repository": "MetaCubeX/meta-rules-dat",
     "branch": "meta",
     "directory": "geo",
-    "revision": "e731d6be701afb91548fe0b76380d5022f7f4c02"
+    "revision": "458e716abd80ff8c6aee2b7d15c4f94b20e9d279"
   },
   "sources": [
     {
@@ -53,7 +53,7 @@
     },
     {
       "path": "geosite/amazon.list",
-      "sha256": "8d1a975e552d051ac77f78472e31785a8ff08215af6c26bfa2b13057555adbb9",
+      "sha256": "4b73b48cf7850a095194cfa700b5e1cf63f6e9b5d7071c45f603030eb84c1ce1",
       "entries": 247
     },
     {
@@ -68,7 +68,7 @@
     },
     {
       "path": "geosite/apple.list",
-      "sha256": "2ccfe0e118ac51eeb56c401f707aba5dee1c7b4ebb4df309740b13e37c5bbbc0",
+      "sha256": "9dd8bb3318e5635accce88a535ddba9ccf31016d3da11114d46c3b449530f229",
       "entries": 1792
     },
     {
@@ -118,17 +118,17 @@
     },
     {
       "path": "geosite/category-ads-all.list",
-      "sha256": "59a41120166606ee005debf96e4b0674a096984e65048953a850f3a399a9afa6",
+      "sha256": "a310762b3d99af909a98f48276bcff05509704c5b5515801c552bf2be8b1eaed",
       "entries": 908
     },
     {
       "path": "geosite/category-porn.list",
-      "sha256": "0c9af6ebda0d1592203c41923dcaae0fa89bdbec374bf217f22f43839666c113",
+      "sha256": "7824b9e77f69f3024ff85fd1f71444f5dcee582c120eeed48d250013e6b7452a",
       "entries": 6521
     },
     {
       "path": "geosite/category-scholar-!cn.list",
-      "sha256": "506e608d0642a1df746c6a0b1af942444035685bf778aae74d01abdce7e64830",
+      "sha256": "8a2a2a1558862fe162c1280467edf35298278ee60b5690b386d17aad5d9f86ab",
       "entries": 466
     },
     {
@@ -168,7 +168,7 @@
     },
     {
       "path": "geosite/disney.list",
-      "sha256": "6367fc2d6085aef54cfc29672bf624c8445ea5e86504a3974129a82206559682",
+      "sha256": "9e7a51f96e59087d40e2b77cce6a27d115f62aa8cfdf5e3137e28a56a8ed0797",
       "entries": 224
     },
     {
@@ -208,12 +208,12 @@
     },
     {
       "path": "geosite/geolocation-!cn.list",
-      "sha256": "d535e014b32299fef5fb35ca65e73dfcabbfcfa56437b5c89d6a2b0d777eca85",
-      "entries": 27302
+      "sha256": "71d0298b0b990f66af5e9a0fb3f84db1d31a1e55c8934de00a1e2eb9174f6dc6",
+      "entries": 27307
     },
     {
       "path": "geosite/geolocation-cn.list",
-      "sha256": "7dcd2d7e288d3db64362991ae09f590509bd4ccf09bb8b18e231f1401223d984",
+      "sha256": "0a7d2ad200f1fa4789331c883680f0faebb4dde2431b75975f679ad04e63726b",
       "entries": 5437
     },
     {
@@ -238,7 +238,7 @@
     },
     {
       "path": "geosite/google.list",
-      "sha256": "8d74c89c76b7692a1a78bc89a49e411b31cd1f2f352765b58a83071d75f3b302",
+      "sha256": "7ff07f06f73a81e1c847f1df4405988071b112980d27cabe6236812ef3a70145",
       "entries": 1078
     },
     {
@@ -288,7 +288,7 @@
     },
     {
       "path": "geosite/microsoft.list",
-      "sha256": "ce5c698660eebda1d1be3117843c57b3e2f8a3b070b81f884e6028001d4918b1",
+      "sha256": "57ee608dc4b60fb051482b0c9b054a90e04fe1754428cfd62bdca4c1e1b79a1b",
       "entries": 754
     },
     {
@@ -890,8 +890,8 @@
       "sources": [
         "geosite/geolocation-!cn.list"
       ],
-      "entries": 27302,
-      "sha256": "3e4022e892c9550899a61f5288cdd6b75612a9fdea885494666eaa5b8eb81d6f"
+      "entries": 27307,
+      "sha256": "5bf2947c7205ade05286937a55fc73621afbd5b79792e6308bf4a9792c15f9e4"
     },
     {
       "file": "cn-full.list",
